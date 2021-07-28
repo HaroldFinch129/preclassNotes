@@ -183,3 +183,10 @@ console.log(kurs.charAt(kurs.length - 1));
 
 console.log(kurs.includes("aru"));
 // true because cl aru sway
+
+// indexOf
+
+var umut = "Good days are soon";
+var p = umut.indexOf("are");
+
+console.log(p);
