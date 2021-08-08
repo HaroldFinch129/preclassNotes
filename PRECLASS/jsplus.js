@@ -31,3 +31,24 @@ console.log(myDog);
 
 var yourDog = dog["name"];
 console.log(yourDog);
+
+// Object Methods
+
+var cat = {
+    name: "Gilbert",
+    legs: 4,
+    tail: 1,
+    qualities: ["cute", "fast", "hunter"],
+    meow: function() {
+        console.log("meowww");
+    },
+    result: function() {
+        return this.name + " has " + this.legs + " legs.";
+    }
+
+
+};
+
+
+cat.meow();
+console.log(cat.result());
