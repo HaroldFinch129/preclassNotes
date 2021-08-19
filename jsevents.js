@@ -3,9 +3,9 @@ function hello() {
 };
 
 function mouseOver() {
-    document.write("Mouse Over!");
+    alert("you are on the div")
 };
 
 function mouseOut() {
-    document.write("Mouse Out!");
+    alert("your mouse out of the paragraph")
 };
