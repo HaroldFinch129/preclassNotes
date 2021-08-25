@@ -4,6 +4,54 @@
     box-sizing: border-box;
 }
 
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(247, 183, 105);
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* width: 100vw;
+    height: 100vh;
+    text-align: center; */
+    /* border: black solid 3px; */
+}
+
+.başlık {
+    padding: 30px;
+    color: rgb(207, 61, 35);
+}
+
+#degeri-al {
+    border: none;
+    /* width: 70%; */
+    height: 20px;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 2px;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.button-group {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    grid-gap: 15px;
+    margin: 30px;
+}
+
+.button-group button {
+    padding: 10px 15px;
+    border-radius: 3px;
+    border: none;
+}
+
 .durum {
     display: none;
 }
