@@ -24,7 +24,8 @@ body {
 
 .başlık {
     padding: 30px;
-    color: rgb(207, 61, 35);
+    color: brown;
+    font-size: 2em;
 }
 
 #degeri-al {
@@ -36,6 +37,9 @@ body {
     border-radius: 2px;
     font-size: 1.5em;
     text-align: center;
+    background-color: rgb(215, 235, 235);
+    color: brown;
+    font-weight: bold;
 }
 
 .button-group {
@@ -52,10 +56,39 @@ body {
     border: none;
 }
 
+#programla {
+    background-color: brown;
+    color: white;
+}
+
+#start {
+    background-color: rgb(36, 230, 36);
+    color: white;
+}
+
+#stop {
+    background-color: red;
+    color: white;
+}
+
 .durum {
     display: none;
 }
 
 .gorun {
     display: block;
+}
+
+.kutu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: brown solid 3px;
+    background-color: cornflowerblue;
+    height: 100px;
+    width: 25%;
+    border-radius: 100%;
+    color: white;
+    font-weight: bold;
+    font-size: 2em;
 }
