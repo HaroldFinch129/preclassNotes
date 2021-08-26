@@ -73,6 +73,10 @@ body {
 
 .durum {
     display: none;
+    padding: 30px;
+    color: rgb(11, 21, 78);
+    font-size: 2em;
+    font-weight: bold;
 }
 
 .gorun {
